@@ -1,0 +1,66 @@
+body{
+  background-color:  #121112;;
+}
+.row{
+    margin-left: 20px;
+    color: #fff;
+    /* margin-bottom: 20px; */
+ 
+}
+.row h2{
+    margin-left: 5px;
+    font-size: 30px;
+   text-transform:capitalize;
+ margin-top: 10px;
+}
+.row h4{
+    display: inline-block;
+    margin-left: 77%;
+    cursor: pointer;
+font-size: 20px;
+}
+.posters{
+    display:flex;
+    /* overflow-x: scroll; */
+    /* overflow-y:hidden ; */
+    overflow: auto;
+    cursor: pointer;
+    padding-top: 20px;
+    transition: all ease 1s;
+}
+ .posters img{ 
+    border-radius: 10px;
+    width: 400px;
+    margin-bottom: 20px;
+   margin-left: 10px;
+}
+/* .posters::-webkit-scrollbar{
+     display: none; 
+   
+}  */
+.posters img:hover{
+    
+    transform: scale(1.1);
+    transition: all ease 1s;
+
+
+}
+
+
+.posters::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+ .posters::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background: rgba(0,0,0,0.05);
+  }
+ .posters::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(left, #999, #888);
+    -webkit-box-shadow: inset 0 0 9px 0px rgb(121 124 110 / 80%);
+  }
+  .posters::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(left, #888, #777);
+  }

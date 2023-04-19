@@ -1,0 +1,59 @@
+
+.banner{
+   
+    background-size: cover;
+    height: 560px;
+    color: white;
+    margin-top: 0rem;
+    
+}
+.content{
+    padding-top: 140px;
+    height: 330px;
+    padding-left: 40px;
+}
+.title{
+    font-size: 3rem;
+    font-weight: 900;
+    padding-bottom: 0.3rem;
+    
+}
+.button{
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(51, 51, 51, .5);
+    cursor: pointer;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    transition: all ease 0.6s;
+   
+}
+.button:hover{
+    color: black;
+    background-color: #e6e6e6;
+}
+.banner-button{
+    margin-left: 35px;
+}
+.discription{
+    padding-top: 1rem;
+    line-height: 1.3;
+    text-align: justify;
+    font-size: 1rem;
+    overflow:hidden;
+    max-height: 220px;
+    color: rgb(188, 207, 165);
+    max-width: 17rem;
+}
+
+.fade-bottom{
+    height: 14.4rem;
+    background-image: linear-gradient(180deg,transparent,rgba(37,37,37,.81),#111);
+}

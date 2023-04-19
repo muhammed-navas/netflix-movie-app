@@ -1,0 +1,67 @@
+body{
+   background: rgb(17, 17, 17);
+}
+.roww{
+   margin-left: 20px;
+   color: #fff;
+   padding-top: 30px;
+   /* margin-bottom: 20px; */
+
+}
+.roww h2{
+   margin-left: 5px;
+   font-size: 30px;
+  text-transform:capitalize;
+margin-top: 10px;
+}
+.roww h4{
+   display: inline-block;
+   margin-left: 82%;
+   cursor: pointer;
+font-size: 20px;
+}
+.posterss{
+   display:flex;
+   /* overflow-x: scroll; */
+   /* overflow-y:hidden ; */
+   overflow: auto;
+   cursor: pointer;
+   padding-top: 20px;
+   transition: all ease 1s;
+}
+.posterss img{ 
+   border-radius: 10px;
+   width: 250px;
+   margin-bottom: 20px;
+  margin-left: 10px;
+}
+/* .posters::-webkit-scrollbar{
+    display: none; 
+  
+}  */
+.posterss img:hover{
+   
+   transform: scale(1.1);
+   transition: all ease 1s;
+
+
+}
+
+
+.posterss::-webkit-scrollbar {
+   width: 8px;
+   height: 8px;
+ }
+.posterss::-webkit-scrollbar-track {
+   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+   border-radius: 10px;
+   background: rgba(0,0,0,0.05);
+ }
+.posterss::-webkit-scrollbar-thumb {
+   border-radius: 10px;
+   background: linear-gradient(left, #999, #888);
+   -webkit-box-shadow: inset 0 0 9px 0px rgb(121 124 110 / 80%);
+ }
+ .posterss::-webkit-scrollbar-thumb:hover{
+   background: linear-gradient(left, #888, #777);
+ }

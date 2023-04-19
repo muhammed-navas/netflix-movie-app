@@ -1,0 +1,120 @@
+.popup{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 99;
+    background-color: #000000a9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+/* .popup h2{
+    color: white;
+} */
+ .popup-content{
+background-color: rgb(17, 17, 17);
+width: 800px;
+height: 480px;
+border-radius: 5px;
+/* padding: 20px; */
+/* // display: flex;
+// flex-direction: column;
+// align-items: center;
+// justify-content: center ; */
+}
+/* .popup-content h2{
+    margin-left: 8px;
+    margin-top: 10px;
+} */
+ .popup-content .close{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    background: none;
+    transition: all ease 0.4s;
+    border: none;
+}
+ .close:hover{
+    color: #817691;
+}
+/* .popup-content .btnn{
+    padding: 10px;
+    font-size: 19px;
+    font-weight: bold;
+   margin: 0px 0px 0px 8px ;
+} */
+/* .popup-content .popup-img{
+    height: 30vh;
+    overflow: hidden;
+    display: flex;
+   
+
+    margin-bottom: 20px;
+} */
+
+/* .popup-img img{
+    width: 32%;
+    height: 100%;
+    margin-bottom: 25px;
+    border-radius: 10px;
+} */
+
+/* .popup-contetn-data ul{
+    display: flex;
+width: 770px;
+} */
+/* .popup-img  p{
+    height: 190px;
+    width: 65%;
+    overflow-y: scroll;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: white;
+    padding: 15px;
+    text-align: justify;
+} */
+/* 
+.popup-contetn-data span{
+    background: #9dc01e;
+    color: rgb(12, 12, 12);
+    padding: 6px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    display: inline-block;
+    margin-left: 8px;
+} */
+/* .popup-contetn-data .price{
+    // margin-left: 20%;
+    background: none;
+    color: rgb(243, 243, 243);
+    font-weight: bolder;
+    font-size: 20px;
+    border: 1px solid orange;
+    margin-left: 100px;
+} */
+/* .popup-contetn-data h2{
+    margin-left: 8px;
+    width: 70%;
+    margin-bottom: 0px;
+    display: inline-block;
+} */
+/* .popup-contetn-data ul li{
+    list-style: none;
+    background: wheat;
+    color: black;
+    padding: 6px 10px;
+    margin-left: 8px;
+    margin-top: 10px;
+    border-radius: 30px;
+    margin-bottom: 25px;
+
+} */
